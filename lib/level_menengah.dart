@@ -35,3 +35,17 @@ void listMap(List<Map<String, dynamic>> listSiswa) {
     print("--------------------------------");
   }
 }
+
+void faktorial(int n, [int hasil = 1]) {
+  if (n < 0) {
+    print("Tidak Bisa Menghitung Faktorial Negatif");
+    return;
+  }
+
+  if (n == 0 || n == 1) {
+    print("Faktorial : $hasil");
+    return;
+  }
+  faktorial(n - 1, hasil * n);
+  
+}

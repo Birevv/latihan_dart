@@ -15,4 +15,8 @@ void main() {
   ];
   listMap(daftarSiswa);
   print("================================");
+  faktorial(5);
+  faktorial(0);
+  faktorial(-5);
+  print("================================");
 }
